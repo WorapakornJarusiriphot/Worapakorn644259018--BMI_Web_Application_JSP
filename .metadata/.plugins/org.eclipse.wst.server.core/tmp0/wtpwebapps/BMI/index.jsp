@@ -2,7 +2,7 @@
 
 <%@ page import="com.bmi.HumanBeing, com.bmi.BmiIndexer"%>
 <%
-    String interpretation = null;
+    String interpretBMI = null;
 	String interpretimagePathBMI = null;
 	String interpretdetailsBMI = null;
     double bmi = 0;
@@ -19,8 +19,8 @@
         BmiIndexer bmiIndexer = new BmiIndexer();
         bmiIndexer.setHuman(human);
         bmi = bmiIndexer.getBmi();
+        interpretBMI = bmiIndexer.interpretBMI();
         interpretimagePathBMI = bmiIndexer.interpretimagePathBMI();
-        interpretation = bmiIndexer.interpretBMI();
         interpretdetailsBMI = bmiIndexer.interpretdetailsBMI();
     }
 %>
@@ -85,7 +85,7 @@
     
 </head>
 <body>
-	<% if (interpretation != null) { %>
+	<% if (interpretBMI != null) { %>
 
 	<div class='container py-5'>
 		<div class='row justify-content-center'>
@@ -97,7 +97,7 @@
 							<strong>ค่า BMI ของคุณคือ:</strong>
 							<%= bmi %></p>
 						<p class='text-center'>
-							<strong><%= interpretation %></strong>
+							<strong><%= interpretBMI %></strong>
 						</p>
 						<div class='text-center'>
 							<img src='<%= interpretimagePathBMI %>' alt='BMI Image'
