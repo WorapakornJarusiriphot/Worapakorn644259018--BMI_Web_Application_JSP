@@ -1,0 +1,72 @@
+<%@ page import="com.bmi.HumanBeing, com.bmi.BmiIndexer"%>
+<%
+    // Convert PHP logic to JSP
+    String bmiDisplay = "";
+    String interpretationDisplay = "";
+    String imagePathDisplay = "";
+    String detailsDisplay = "";
+
+    if ("POST".equalsIgnoreCase(request.getMethod())) {
+        double weight = Double.parseDouble(request.getParameter("weight"));
+        double height = Double.parseDouble(request.getParameter("height"));
+
+        HumanBeing human = new HumanBeing();
+        human.setWeight(weight);
+        human.setHeight(height);
+        human.calculateBmi();
+
+        BmiIndexer bmiIndexer = new BmiIndexer();
+        bmiIndexer.setHuman(human);
+
+        double bmi = bmiIndexer.getBmi();
+        String interpretation = bmiIndexer.interpretBMI();
+        String imagePath = bmiIndexer.interpretimagePathBMI();
+        String details = bmiIndexer.interpretdetailsBMI();
+
+        // Prepare the displays
+        bmiDisplay = "<p class='text-center'><strong>ค่า BMI ของคุณคือ:</strong> " + bmi + "</p>";
+        interpretationDisplay = "<p class='text-center'><strong>" + interpretation + "</strong></p>";
+        imagePathDisplay = "<img src='" + imagePath + "' alt='BMI Image' class='img-fluid rounded mx-auto d-block' />";
+        detailsDisplay = "<h3>ข้อแนะนำ:</h3><ul>" + details + "</ul>";
+    }
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Other styles and scripts... -->
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card shadow bg-dark">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4">BMI Calculator</h1>
+                        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                            <div class="form-group">
+                                <label for="weight">Weight (kg):</label>
+                                <input type="text" class="form-control" name="weight" id="weight" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="height">Height (cm):</label>
+                                <input type="text" class="form-control" name="height" id="height" required>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block">Calculate BMI</button>
+                        </form>
+
+                        <!-- Display results -->
+                        <%= bmiDisplay %>
+                        <%= interpretationDisplay %>
+                        <%= imagePathDisplay %>
+                        <%= detailsDisplay %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

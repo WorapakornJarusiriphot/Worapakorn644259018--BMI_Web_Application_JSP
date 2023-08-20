@@ -1,0 +1,130 @@
+<%@ page import="com.bmi.HumanBeing, com.bmi.BmiIndexer"%>
+<%
+    String interpretation = null;
+	String interpretimagePathBMI = null;
+	String interpretdetailsBMI = null;
+    double bmi = 0;
+
+    if ("POST".equalsIgnoreCase(request.getMethod())) {
+        double weight = Double.parseDouble(request.getParameter("weight"));
+        double height = Double.parseDouble(request.getParameter("height"));
+
+        HumanBeing human = new HumanBeing();
+        human.setWeight(weight);
+        human.setHeight(height);
+        human.calculateBmi();
+
+        BmiIndexer bmiIndexer = new BmiIndexer();
+        bmiIndexer.setHuman(human);
+        bmi = bmiIndexer.getBmi();
+        interpretimagePathBMI = bmiIndexer.interpretimagePathBMI();
+        interpretation = bmiIndexer.interpretBMI();
+        interpretdetailsBMI = bmiIndexer.interpretdetailsBMI();
+    }
+%>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BMI Calculator</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("images/bmi background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .card {
+            border-radius: 20px;
+            border: none;
+        }
+
+        .btn {
+            border-radius: 20px;
+        }
+
+        .btn {
+            transition: transform .2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes animateBackground {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100% 0;
+            }
+        }
+
+        body {
+            background-image: url("images/bmi background.jpg");
+            animation: animateBackground 10s linear infinite;
+            background-size: 200% 200%;
+            color: white;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Fade in result on page load
+            $(".result").addClass('fade-in');
+        });
+    </script>
+</head>
+<body>
+<!-- Debugging Output -->
+<%= "Request method: " + request.getMethod() %>
+<%= "Weight parameter: " + request.getParameter("weight") %>
+<%= "Height parameter: " + request.getParameter("height") %>
+	<!-- [Your main content here] -->
+	<div class="container py-5">
+		<div class="row justify-content-center">
+			<div class="col-lg-6">
+				<div class="card shadow bg-dark">
+					<div class="card-body">
+						<h1 class="text-center mb-4">BMI Calculator</h1>
+						<form method="post" action="">
+							<div class="form-group">
+								<label for="weight">Weight (kg):</label> <input type="text"
+									class="form-control" name="weight" id="weight" required>
+							</div>
+							<div class="form-group">
+								<label for="height">Height (cm):</label> <input type="text"
+									class="form-control" name="height" id="height" required>
+							</div>
+							<button type="submit" class="btn btn-success btn-block">Calculate
+								BMI</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<% if (interpretation != null) { %>
+	<div class="result">
+		<!-- [Display the results such as BMI, interpretation, etc.] -->
+		BMI:
+		<%= bmi %><br> Interpretation:
+		<%= interpretation %><br> <img src="<%= interpretimagePathBMI %>"><br>
+		interpretdetailsBMI:
+		<%= interpretdetailsBMI %>
+	</div>
+	<% } %>
+</body>
+</html>

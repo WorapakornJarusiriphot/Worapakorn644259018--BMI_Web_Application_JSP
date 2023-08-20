@@ -1,4 +1,4 @@
-!SESSION 2566-08-17 00:52:55.438 -----------------------------------------------
+!SESSION 2566-08-18 19:44:45.660 -----------------------------------------------
 eclipse.buildId=4.25.0.I20220831-1800
 java.version=17.0.5
 java.vendor=Eclipse Adoptium
@@ -6,9 +6,1474 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.jface 2 0 2566-08-17 00:53:54.191
+This is a continuation of log file C:\xampp\tomcat\webapps\ปี 3 เทอม 1\สถาปัตยกรรมซอฟต์แวร์\งาน\งานที่ 2 ให้แปลงโค้ดจากงานที่ 1 จากโค้ด php เป็น JSP หรือ Java\.metadata\.bak_7.log
+Created Time: 2566-08-18 20:04:29.430
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:29.430
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:29.432
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:29.440
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:29.442
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:29.443
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:29.451
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:29.453
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:29.454
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:29.462
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:29.464
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:29.465
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:263)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:29.899
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:29.902
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:29.903
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:30.583
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:30.585
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:30.586
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.internalGetHoverInfo(NLSStringHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.NLSStringHover.getHoverInfo2(NLSStringHover.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2566-08-18 20:04:30.595
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "น้ำหนักต่ำกว่ามาตรฐานมาก หรือ ผอมมาก";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "น้ำหนักน้อย หรือ ผอม";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "ปกติ หรือ สุขภาพดี";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "น้ำหนักเกิน หรือ โรคอ้วนระดับ 1";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "อ้วน หรือ โรคอ้วนระดับ 2";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "อ้วนมาก หรือ โรคอ้วนระดับ 3";
+        } else (bmi >= 40) {
+            return "เป็นโรคอ้วน หรือ โรคอ้วนระดับสุดท้าย";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();        
+        if (bmi < 16) {
+            return "images/ผอมมาก.jpg";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "images/ผอม.jpg";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "images/สุขภาพดี.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/น้ำหนักเกิน.jpg";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "images/อ้วน.jpg";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "images/อ้วนมาก.jpg";
+        } else {
+            return "images/เป็นโรคอ้วน.png";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        
+        if (bmi < 16) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 16 && bmi < 18.5) {
+            return "<li>กรณีกินเยอะแต่ไม่อ้วน ก็ต้องระวังเรื่องคุณภาพของอาหารที่กินเข้าไปด้วย เลือกกินอาหารที่ดี มีประโยชน์ ลดหวาน มัน เค็ม และหลีกเลี่ยงอาหารที่มีไขมันสูง เพราะอาจเพิ่มความเสี่ยงต่อการเป็นโรคเบาหวาน ความดันเลือดสูง ไขมันในเลือดสูง หรือผอมลงพุงได้</li>
+                        "<li>เลือกกินอาหารให้หลากหลายครบ 5 หมู่ โดยเน้นอาหารที่มีโปรตีน เพื่อช่วยในการเสริมสร้างกล้ามเนื้อ หากต้องการเพิ่มน้ำหนัก ให้ไม่ผอมจนเกินไป ให้เพิ่มปริมาณการกินอาหารประมาณ 300-500 กิโลแคลอรี โดยเน้นการกินอาหารที่มีประโยชน์ คาร์โบไฮเดรตเชิงซ้อน และไขมันดี</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายสม่ำเสมอ ระดับความหนักปานกลาง โดยเลือกกิจกรรมการออกกำลังกายที่ชื่นชอบและสนุกสนาน เพื่อส่งเสริมให้อยากออกกำลังกาย ลดความเบื่อหน่าย เช่น การเต้นเข้าจังหวะ เดิน วิ่ง ว่ายน้ำ หรือกิจกรรมออกแรง ขยับร่างกายในชีวิตประจำวัน อย่างการทำงานบ้าน การทำสวน เป็นต้น แนะนำให้ออกกำลังกาย อย่างน้อยวันละ 30 นาที หรือ ไม่น้อยกว่า 150 นาทีต่อสัปดาห์</li>";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            return "<li>เลือกกินอาหารให้ได้สัดส่วนพอเหมาะ และเลือกอาหารที่ดี มีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณอาหารให้เพียงพอต่อความต้องการ การใช้พลังงานของร่างกาย อาหารกลุ่มคาร์โบไฮเดรตให้เลือกเป็น ข้าว-แป้งขัดสีน้อย ธัญพืช ไม่น้อยกว่า 6 ทัพพี กินผักหลากหลาย ถั่ว ผลไม้อ่อนหวาน รวมกันไม่น้อยกว่า 400 กรัมต่อวัน เพื่อให้ได้รับสารอาหาร วิตามิน เกลือแร่อย่างเพียงพอ เกิดความสมดุลด้านโภชนาการ และมีส่วนช่วยให้รักษา และควบคุมน้ำหนักให้อยู่ในเกณฑ์ได้</li>
+                        "<li>ออกกำลังกาย หรือเคลื่อนไหวร่างกายสม่ำเสมอ เลือกความเข้มข้นของกิจกรรมการออกกำลังกาย ที่ระดับปานกลาง หรือ ใช้ชีวิตให้กระฉับกระเฉง ลุกเดิน เคลื่อนไหวร่างกายบ่อยๆ หากรักในการออกกำลังกาย ควรเลือกกิจกรรมที่ชื่นชอบและสนุกสนาน จะช่วยลดความเบื่อหน่าย ทำได้บ่อย และสม่ำเสมอมากขึ้น นอกจากนี้การออกกำลังกาย มีส่วนช่วยให้สุขภาพร่างกายแข็งแรง สมบูรณ์ กล้ามเนื้อแข็งแรง มีส่วนช่วยลดความเสี่ยงในการเกิดโรคไม่ติดต่อเรื้อรัง(NCDs) ต่างๆ ได้ ถ้าหากต้องการให้สมรรถภาพร่างกายดีขึ้น ควรเลือกการออกกำลังกายแบบแอโรบิค เช่น เดินเร็วๆ วิ่งเหยาะ ถีบจักรยานเร็วๆ กระโดดเชือก ว่ายน้ำ หรือเล่นกีฬา โดยทำสม่ำเสมอวันละ 20 - 30 นาที อย่างน้อย 3 - 4 วัน / สัปดาห์</li>";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "<li>ต้องเริ่มควบคุม และเลือกกินอาหารให้เหมาะสม ปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเน้นเลือกกินอาหารที่ดีมีประโยชน์ ครบ 5 หมู่ กำหนดปริมาณตามความต้องการพลังงานของร่างกาย หรือลดจากเดิมเล็กน้อย ประมาณ 200-300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน เพื่อป้องกันการจำกัดอาหารมากจนเกินไป ที่อาจส่งผลให้ร่างกายได้รับสารอาหารไม่เพียงพอใส่ใจเรื่องโภชนาการให้มากขึ้น ลดอาหารหวาน มัน และเค็มจัด โดยเฉพาะ อาหาร ขนม ของหวาน เครื่องดื่มที่มีน้ำตาล และเครื่องดื่มที่มีแอลกอฮอล์ อาหารแปรรูปต่างๆ กินอาหารให้หลากหลายในสัดส่วนที่เหมาะสม เลือกกินข้าว - แป้ง ขัดสีน้อย ธัญพืชต่างๆ และกินผัก - ผลไม้อย่างน้อย 400 กรัม / วัน ไม่อด ไม่งดอาหารมากจนเกินไป เพื่อให้สามารถควบคุมอาหารได้ดีมากยิ่งขึ้น</li>
+                        "<li>เคลื่อนไหว และออกกำลังกายแบบแอโรบิคอย่างสม่ำเสมอ เลือกความเข้มข้นปานกลาง โดยทำอย่างน้อยวันละ 30 - 40 นาที 4 - 5 วัน/สัปดาห์ สำหรับคนที่ไม่เคยออกกำลังกาย ควรเริ่มด้วยกิจกรรมเบาๆ เช่นการเดิน หรือ วิ่งจ๊อกกิ้ง ปั่นจักรยาน ทำต่อเนื่อง เพื่อให้ร่างกายเกิดความคุ้นเคย และพัฒนาความแข็งแรงขึ้น แล้วจึงค่อยๆ เพิ่มความเข้มข้นของกิจกรรมขึ้นทีละน้อย</li>
+                        "<li>เสริมการฝึกเวทเทรนนิ่ง เพื่อเพิ่มความแข็งแรง และปริมาณของกล้ามเนื้อ ที่มีส่วนช่วยในการเผาผลาญพลังงาน และทำให้ไขมันลดลง สำหรับผู้ที่ไม่เคยฝึกการออกกำลังกายแบบใช้แรงต้าน หรือ เวทเทรนนิ่ง อาจเริ่มต้นด้วยกิจกรรมแบบบอดี้เวทง่ายๆ โดยใช้แรงต้านจากน้ำหนักตัวเอง เช่นการทำท่า แพลงกิ้ง สควอช หรือซิทอัพ ก็ได้ หรือหากต้องการใช้ลูกน้ำหนัก หรืออุปกรณ์เสริมแรงต้าน ก็ควรศึกษาหาข้อมูล หรือรับคำแนะนำจากผู้เชี่ยวชาญ ก่อนลงมือปฏิบัติ เพื่อป้องกันอุบัติเหตุ หรืออันตรายที่อาจเกิดขึ้นจากการออกกำลังกายผิดวิธี</li>";
+        } else if (bmi >= 30 && bmi < 35) {
+            return "<li>การควบคุมอาหารมีส่วนสำคัญอย่างมาก ที่จะช่วยให้สามารถลดน้ำหนักให้อยู่ในเกณฑ์ปกติได้ ควรปรับเปลี่ยนพฤติกรรมการกินอาหาร โดยเลือกกินอาหารให้หลากกลาย แต่มีประโยชน์ กำหนดปริมาณการกินที่เหมาะสม ต่อความต้องการพลังงาน ไม่ลด ไม่งด หรือ อดอาหารมากจนเกินไป ลดพลังงานจากอาหารในแต่ละวันเล็กน้อย ประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือไม่น้อยกว่าค่า BMR ของแต่ละคน ลด หรือหลีกเลี่ยงการกินอาหารที่มีน้ำตาลสูง ขนมหวาน , เครื่องดื่มที่มีรสหวาน ของทอด อาหารแปรรูป อาหารที่มีไขมันอิ่มตัวสูง และควรควบคุมอาหารที่มีปริมาณโซเดียมสูงด้วยเลือกกินอาหารโดยเน้นที่โภชนาการครบถ้วน เพื่อให้ร่างกายได้สารอาหาร และวิตามินที่มีประโยชน์ เช่น ข้าว - แป้งขัดสีน้อย ธัญพืช ถั่ว เนื้อสัตว์ไขมันต่ำ อกไก่ ไข่ และเนื้อปลา กินผักและผลไม้อ่อนหวาน ในสัดส่วนที่พอเหมาะ หรืออย่างน้อย 400 กรัมต่อคนต่อวัน</li>
+                        "<li>คนที่มีน้ำหนักตัวมาก ก่อนจะเริ่มออกกำลังกาย ควรปรึกษา หรือรับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินสมรรถภาพร่างกายเสียก่อน เพื่อป้องกันอันตรายที่อาจเกิดขึ้น จากปัญหาสุขภาพ และร่างกายที่ไม่พร้อมกิจกรรมการออกกำลังกายที่เหมาะกับคนอ้วน หรือคนที่มีน้ำหนักตัวมาก ควรเริ่มที่กิจกรรมที่ไม่หนักมาก ทำได้ง่าย เน้นที่ความหนักปานกลาง เช่นการเดิน หรือการเดินในน้ำ ที่มีส่วนช่วยลดความเสี่ยงต่ออาการบาดเจ็บ จากการออกกำลังกายได้ พยายามออกกำลังกายให้ได้สม่ำเสมอ ประมาณ 40 - 60 นาที / วัน หรือ ในระยะเริ่มต้น อาจใช้เวลาน้อยแต่มากครั้งการออกกำลังกาย โดยทำครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน เมื่อน้ำหนักตัวลดลด ร่างกายแข็งแรงมากขึ้น จึงค่อยๆเพิ่มความเข้มข้นของกิจกรรม หรือเพิ่มเวลาให้ออกกำลังกายนานขึ้นใช้ชีวิตประจำวันให้กระฉับกระเฉง เคลื่อนไหวร่างกายให้มาก หรือหากิจกรรมภายในบ้าน ที่ช่วยให้ได้ขยับร่างกาย อย่างการทำงานบ้าน ทำสวน หรือลุกเดินไปมาบ่อยๆ</li>
+                        "<li>สร้างกล้ามเนื้อด้วยเวทเทรนนิ่ง การออกกำลังกายโดยใช้แรงต้าน จะช่วยเสริมสร้างปริมาณ และส่งเสริมความแข็งแรงของกล้ามเนื้อ ที่เป็นส่วนสำคัญในการเผาผลาญพลังงาน ช่วยให้การทรงตัวดีขึ้น เคลื่อนไหว และทำกิจกรรมได้สะดวก คล่องตัวขึ้นคนที่มีน้ำหนักตัวมากๆ อยากเริ่มเวทเทรนนิ่ง ควรได้รับคำแนะนำจากผู้เชี่ยวชาญ หรือ ครูฝึกที่มีประสบการณ์ เพื่อป้องกันการบาดเจ็บ จากกการออกกำลังกายผิดวิธี และการใช้อุปกรณ์ที่ไม่ถูกต้อง ควรศึกษา และหาท่าทางที่เหมาะสมกับรูปร่าง ไม่ฝืน หรือหักโหมจนเกินไป ทำอย่างสม่ำเสมอ ค่อยเป็นค่อยไป เมื่อกล้ามเนื้อแข็งแรงมากขึ้น ทรงตัวได้ดีขึ้น จึงค่อยปรับความเข้มข้นของกิจกรรม ท่าทางและน้ำหนักของแรงต้าน ตามความสามารถของร่างกาย</li>";
+        } else if (bmi >= 35 && bmi < 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        } else (bmi >= 40) {
+            return "<li>เพื่อสุขภาพที่ดีขึ้น คุณต้องปรับเปลี่ยนพฤติกรรมแล้ว ถ้าอยากเปลี่ยนตัวเองให้กลับมามีรูปร่างสมส่วน โรคร้ายไม่ถามหา ต้องเริ่มใส่ใจเรื่องโภชนาการ และออกกำลังกายแล้ว โภชนาการมีส่วนสำคัญ ที่จะช่วยให้ลด และควบคุมน้ำหนักได้ดีขึ้น สำหรับคนที่คิดว่าตัวเองกินน้อย กินอาหารปกติแต่ยัง อ้วนมากๆ ควรเข้ารับคำปรึกษาจากแพทย์ เพื่อรับรักษาภาวะโรคอ้วน หรือถ้าอ้วนจากความเผลอเลอ กินดุ กินเก่ง ต้องควบคุมการกินอาหารให้ดี เลือกกินอาหารที่ดีมีประโยชน์ต่อร่างกาย ในปริมาณที่เหมาะสม ไม่งด ไม่อดอาหารมากจนเกินไป เพราะจะทำให้โหย หิวบ่อย และยอมแพ้ไปก่อน อาจลดปริมาณอาหารที่กินในแต่ละวันเล็กน้อยประมาณ 200 - 300 กิโลแคลอรี โดยค่าปริมาณพลังงานจากอาหารที่กินในแต่ละวันเฉลี่ยไม่ควรน้อยกว่า 1,000 - 1,200 กิโลแคลอรี หรือต้องไม่น้อยกว่าค่า BMR ของแต่ละคนเลือกกินให้มากๆ ลดอาหารหวาน ของหวาน ขนม เครื่องดื่มที่มีน้ำตาล งด หรือหลีกเลี่ยงของทอด อาหารไขมันสูง อาหารที่มีไขมันอิ่มตัวสูง อาหารแปรรูป เบเกอรี่ ขนมซองต่างๆ และเครื่องดื่มที่มีแอลกอฮอล์ อาหารเค็มจัด โซเดียมสูงไม่กินอาหารตามใจ ไม่กินอาหารแก้เครียด ไม่กินจุบจิบ พยายามเลือกกินอาหารที่มีประโยชน์ ผัก - ผลไม้อ่อนหวาน เลือกข้าว - แป้งที่ขัดสีน้อย ธัญพืช เมล็ดพืช ถั่ว สำหรับเนื้อสัตว์ เลือกเนื้อสัตว์ส่วนที่มีไขมันต่ำ เนื้อส่วนอก ไข่ไก่ หรือ เนื้อสัตว์ที่ให้ไขมันดีอย่างเนื้อปลา เป็นต้น</li>
+                        "<li>ควรหมั่นเคลื่อนไหวร่างกาย ทำกิจวัตรประจำวันให้กระฉับกระเฉง ลุกขึ้นยืน เดินให้มาก และหากิจกรรมที่ช่วยให้ได้ขยับร่างกายมากขึ้น หากต้องการที่จะเริ่มการออกกำลังกาย ควรเข้ารับคำแนะนำจากแพทย์ หรือผู้เชี่ยวชาญ เพื่อประเมินความพร้อมด้านสุขภาพ และร่างกาย เสียก่อนเริ่มต้นออกกำลังกายด้วยกิจกรรมเบาๆ เหมาะสมกับสภาพร่างกาย โดยค่อยทำทีละน้อย แต่ทำอย่างสม่ำเสมอ เมื่อร่างกายแข็งแรงขึ้น จึงค่อยๆ ปรับโปรแกรมการออกกำลังกายให้เข้มข้นมากขึ้น หรือ ใช้เวลาการออกกำลังกายให้นานขึ้น เลือกกิจกรรมการออกกำลังกายที่ปะทะน้อย แรงกระแทกต่ำ อย่างการเดิน การเดินในน้ำ ยืนแกว่งแขน หรือกิจกรรมที่ไม่หักโหมจนเกินไป โดยพยายามตั้งเป้าหมายการออกกำลังกายให้ได้ 40 - 60 นาทีต่อวัน หรือจะแบ่งเป็นช่วงสั้นๆ ครั้งละ 10 - 20 นาที 2 - 3 ครั้งต่อวัน ก็ได้</li>
+                        "<li>ควรฝึกความแข็งแรงของกล้ามเนื้อด้วยกิจกรรมเวทเทรนนิ่ง ที่ควบคุมโดยผู้เชี่ยวชาญ จะช่วยให้การฝึกปลอดภัย ถูกต้องและเหมาะสม เพื่อลดความเสี่ยงในการเกิดอุบัติเหตุ และอาการบาดเจ็บได้ การฝึกควรทำอย่างค่อยเป็นค่อยไป ตามความแข็งแรงของร่างกาย ไม่ฝืน ไม่หักโหม และเมื่อน้ำหนักตัวลดลง กล้ามเนื้อ ร่างกายแข็งแรงขึ้น จึงค่อยปรับเปลี่ยนโปรแกรมการฝึก ให้เข้มข้น หรือใช้เวลาในการออกกำลังกายมากขึ้น</li>";
+        }
+    }
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2566-08-18 20:04:30.597
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2566-08-18 20:04:30.598
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2248)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoveredASTNode(JavadocHover.java:1003)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:743)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2566-08-18 20:17:15.429
+!MESSAGE Several ports (8005, 8080) required by apache-tomcat-10.0.23 at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2566-08-18 20:23:44.777 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2566-08-18 20:23:56.003
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2566-08-18 20:24:34.409
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-17 00:53:54.191
+!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-18 20:24:34.409
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -26,7 +1491,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-17 00:53:54.191
+!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-18 20:24:34.409
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -45,78 +1510,13 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2566-08-17 00:54:04.222
+!ENTRY org.eclipse.egit.ui 2 0 2566-08-18 20:24:44.843
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2566-08-17 01:13:40.989
-!MESSAGE Several ports (8005, 8080) required by apache-tomcat-10.0.23 at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2566-08-17 01:13:44.057
-!MESSAGE Several ports (8005, 8080) required by apache-tomcat-10.0.23 at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2566-08-17 01:14:46.283
-!MESSAGE Several ports (8005, 8080) required by apache-tomcat-10.0.23 at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-
-!ENTRY org.eclipse.ui 4 0 2566-08-17 01:15:50.992
-!MESSAGE Exceptions during shutdown
-!STACK 0
-java.lang.NullPointerException: Cannot read field "ignoreRestoreFocus" because "this.display" is null
-	at org.eclipse.swt.widgets.Decorations.restoreFocus(Decorations.java:757)
-	at org.eclipse.swt.widgets.Shell.open(Shell.java:1317)
-	at org.eclipse.jface.window.Window.open(Window.java:795)
-	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:633)
-	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:542)
-	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:467)
-	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
-	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2931)
-	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
-	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
-	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
-	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2733)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
-	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3256)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
-	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-!SESSION 2566-08-17 01:16:48.520 -----------------------------------------------
+!SESSION 2566-08-20 19:19:53.227 -----------------------------------------------
 eclipse.buildId=4.25.0.I20220831-1800
 java.version=17.0.5
 java.vendor=Eclipse Adoptium
@@ -124,12 +1524,12 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.core.resources 2 10035 2566-08-17 01:17:13.124
+!ENTRY org.eclipse.core.resources 2 10035 2566-08-20 19:21:09.409
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
-!ENTRY org.eclipse.jface 2 0 2566-08-17 01:17:48.019
+!ENTRY org.eclipse.jface 2 0 2566-08-20 19:21:57.059
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-17 01:17:48.019
+!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-20 19:21:57.059
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -147,7 +1547,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-17 01:17:48.019
+!SUBENTRY 1 org.eclipse.jface 2 0 2566-08-20 19:21:57.059
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -166,7 +1566,7 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2566-08-17 01:18:01.532
+!ENTRY org.eclipse.egit.ui 2 0 2566-08-20 19:22:09.534
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and

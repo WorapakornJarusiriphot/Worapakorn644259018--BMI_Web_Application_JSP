@@ -1,0 +1,59 @@
+package com.bmi;
+
+public class BmiIndexer {
+    private HumanBeing human;
+
+    public void setHuman(HumanBeing human) {
+        this.human = human;
+    }
+
+    public double getBmi() {
+        return this.human.getBmi();
+    }
+
+    public String interpretBMI() {
+        double bmi = this.human.getBmi();
+        if (bmi < 18.5) {
+            return "น้ำหนักน้อย / ผอม";
+        } else if (bmi >= 18.5 && bmi < 23) {
+            return "ปกติ (สุขภาพดี)";
+        } else if (bmi >= 23 && bmi < 25) {
+            return "ท้วม / โรคอ้วนระดับ 1";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "อ้วน / โรคอ้วนระดับ 2";
+        } else {
+            return "อ้วนมาก / โรคอ้วนระดับ 3";
+        }
+    }
+
+    public String interpretimagePathBMI() {
+        // NOTE: Assuming images are stored in a folder named "images"
+        double bmi = this.human.getBmi();
+        if (bmi < 18.5) {
+            return "images/underweight.jpg";
+        } else if (bmi >= 18.5 && bmi < 23) {
+            return "images/normal.jpg";
+        } else if (bmi >= 23 && bmi < 25) {
+            return "images/overweight.jpg";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "images/obese1.jpg";
+        } else {
+            return "images/obese2.jpg";
+        }
+    }
+
+    public String interpretdetailsBMI() {
+        double bmi = this.human.getBmi();
+        if (bmi < 18.5) {
+            return "คุณอยู่ในเกณฑ์น้ำหนักน้อย ควรเพิ่มน้ำหนัก";
+        } else if (bmi >= 18.5 && bmi < 23) {
+            return "คุณมีน้ำหนักในเกณฑ์ปกติ ควรรักษาน้ำหนักนี้";
+        } else if (bmi >= 23 && bmi < 25) {
+            return "คุณมีน้ำหนักเกิน ควรลดน้ำหนัก";
+        } else if (bmi >= 25 && bmi < 30) {
+            return "คุณอยู่ในเกณฑ์อ้วน ควรลดน้ำหนักอย่างจริงจัง";
+        } else {
+            return "คุณอยู่ในเกณฑ์อ้วนมาก ควรปรึกษาแพทย์";
+        }
+    }
+}

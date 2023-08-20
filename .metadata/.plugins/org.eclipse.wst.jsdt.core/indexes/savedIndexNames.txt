@@ -2,8 +2,7 @@ INDEX VERSION 1.4+C:\xampp\tomcat\webapps\ปี 3 เทอม 1\สถาปัตยกรรมซอฟต์แวร์\งาน\ง
 2572615380.index
 4037369078.index
 685802871.index
-685802871.index
-3070887733.index
 4277956417.index
+3070887733.index
 778819753.index
 3731999802.index
